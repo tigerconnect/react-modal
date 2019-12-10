@@ -1,0 +1,805 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.5.1">
+    
+    
+      
+        <title>react-modal documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/application.1b62728e.css">
+      
+      
+    
+    
+      <script src="assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#react-modal" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="." title="react-modal documentation" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              react-modal documentation
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Overview
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="." title="react-modal documentation" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    react-modal documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Overview
+      </label>
+    
+    <a href="." title="Overview" class="md-nav__link md-nav__link--active">
+      Overview
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-usage" class="md-nav__link">
+    General Usage
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-a-custom-parent-node" class="md-nav__link">
+    Using a custom parent node
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#refs" class="md-nav__link">
+    Refs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    License
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="accessibility/" title="Accessibility" class="md-nav__link">
+      Accessibility
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Styles
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Styles
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="styles/" title="Inline Styles" class="md-nav__link">
+      Inline Styles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="styles/classes/" title="Classes" class="md-nav__link">
+      Classes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="styles/transitions/" title="Transitions" class="md-nav__link">
+      Transitions
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Examples
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Examples
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="examples/" title="Run local" class="md-nav__link">
+      Run local
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="examples/minimal/" title="Minimal" class="md-nav__link">
+      Minimal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="examples/set_app_element/" title="setAppElement" class="md-nav__link">
+      setAppElement
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="examples/should_close_on_overlay_click/" title="shouldCloseOnOverlayClick" class="md-nav__link">
+      shouldCloseOnOverlayClick
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="examples/on_request_close/" title="onRequestClose" class="md-nav__link">
+      onRequestClose
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="examples/global_overrides/" title="Global Overrides" class="md-nav__link">
+      Global Overrides
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="examples/inline_styles/" title="Inline Styles" class="md-nav__link">
+      Inline Styles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="examples/css_classes/" title="Css Classes" class="md-nav__link">
+      Css Classes
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="testing/" title="Testing" class="md-nav__link">
+      Testing
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Contributing
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Contributing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributing/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="contributing/development/" title="Development setup" class="md-nav__link">
+      Development setup
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-usage" class="md-nav__link">
+    General Usage
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-a-custom-parent-node" class="md-nav__link">
+    Using a custom parent node
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#refs" class="md-nav__link">
+    Refs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    License
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="react-modal">react-modal</h1>
+<blockquote>
+<p>Accessible modal dialog component for React.JS</p>
+</blockquote>
+<p>We maintain that accessibility is a key component of any modern web application.  As such, we have created this modal in such a way that it fulfills the accessibility requirements of the modern web.  We seek to keep the focus on accessibility while providing a functional, capable modal component for general use.</p>
+<h2 id="installation"><a href="#installation">Installation</a></h2>
+<p>To install the stable version you can use <a href="https://npmjs.org/">npm</a> or <a href="https://yarnpkg.com">yarn</a>:</p>
+<div class="codehilite"><pre><span></span>$ npm install react-modal
+$ yarn add react-modal
+</pre></div>
+
+
+<h2 id="general-usage"><a href="#usage">General Usage</a></h2>
+<p>The only required prop for the modal object is <code>isOpen</code>, which indicates
+whether the modal should be displayed.  The following is an example of using
+react-modal specifying all the possible props and options:</p>
+<div class="codehilite"><pre><span></span><span class="kr">import</span> <span class="nx">ReactModal</span> <span class="nx">from</span> <span class="s1">&#39;react-modal&#39;</span><span class="p">;</span>
+
+<span class="p">&lt;</span><span class="nt">ReactModal</span>
+
+  <span class="na">isOpen</span><span class="o">=</span><span class="p">{</span>
+    <span class="kc">false</span>
+  <span class="cm">/* Boolean describing if the modal should be shown or not. */</span><span class="p">}</span>
+
+  <span class="na">onAfterOpen</span><span class="o">=</span><span class="p">{</span>
+    <span class="nx">handleAfterOpenFunc</span>
+  <span class="cm">/* Function that will be run after the modal has opened. */</span><span class="p">}</span>
+
+  <span class="na">onAfterClose</span><span class="o">=</span><span class="p">{</span>
+    <span class="nx">handleAfterCloseFunc</span>
+  <span class="cm">/* Function that will be run after the modal has closed. */</span><span class="p">}</span>
+
+  <span class="na">onRequestClose</span><span class="o">=</span><span class="p">{</span>
+    <span class="nx">handleRequestCloseFunc</span>
+  <span class="cm">/* Function that will be run when the modal is requested</span>
+<span class="cm">     to be closed (either by clicking on overlay or pressing ESC).</span>
+<span class="cm">     Note: It is not called if isOpen is changed by other means. */</span><span class="p">}</span>
+
+  <span class="na">closeTimeoutMS</span><span class="o">=</span><span class="p">{</span>
+    <span class="mi">0</span>
+  <span class="cm">/* Number indicating the milliseconds to wait before closing</span>
+<span class="cm">     the modal. */</span><span class="p">}</span>
+
+  <span class="na">style</span><span class="o">=</span><span class="p">{</span>
+    <span class="p">{</span> <span class="nx">overlay</span><span class="o">:</span> <span class="p">{},</span> <span class="nx">content</span><span class="o">:</span> <span class="p">{}</span> <span class="p">}</span>
+  <span class="cm">/* Object indicating styles to be used for the modal.</span>
+<span class="cm">     It has two keys, `overlay` and `content`.</span>
+<span class="cm">     See the `Styles` section for more details. */</span><span class="p">}</span>
+
+  <span class="na">contentLabel</span><span class="o">=</span><span class="p">{</span>
+    <span class="s2">&quot;Example Modal&quot;</span>
+  <span class="cm">/* String indicating how the content container should be announced</span>
+<span class="cm">     to screenreaders */</span><span class="p">}</span>
+
+  <span class="na">portalClassName</span><span class="o">=</span><span class="p">{</span>
+    <span class="s2">&quot;ReactModalPortal&quot;</span>
+  <span class="cm">/* String className to be applied to the portal.</span>
+<span class="cm">     See the `Styles` section for more details. */</span><span class="p">}</span>
+
+  <span class="na">overlayClassName</span><span class="o">=</span><span class="p">{</span>
+    <span class="s2">&quot;ReactModal__Overlay&quot;</span>
+  <span class="cm">/* String className to be applied to the overlay.</span>
+<span class="cm">     See the `Styles` section for more details. */</span><span class="p">}</span>
+
+  <span class="na">id</span><span class="o">=</span><span class="p">{</span>
+    <span class="s2">&quot;some-id&quot;</span>
+  <span class="cm">/* String id to be applied to the content div. */</span><span class="p">}</span>
+
+  <span class="na">className</span><span class="o">=</span><span class="p">{</span>
+    <span class="s2">&quot;ReactModal__Content&quot;</span>
+  <span class="cm">/* String className to be applied to the modal content.</span>
+<span class="cm">     See the `Styles` section for more details. */</span><span class="p">}</span>
+
+  <span class="na">bodyOpenClassName</span><span class="o">=</span><span class="p">{</span>
+    <span class="s2">&quot;ReactModal__Body--open&quot;</span>
+  <span class="cm">/* String className to be applied to the document.body </span>
+<span class="cm">     (must be a constant string).</span>
+<span class="cm">     This attribute when set as `null` doesn&#39;t add any class </span>
+<span class="cm">     to document.body.</span>
+<span class="cm">     See the `Styles` section for more details. */</span><span class="p">}</span>
+
+  <span class="na">htmlOpenClassName</span><span class="o">=</span><span class="p">{</span>
+    <span class="s2">&quot;ReactModal__Html--open&quot;</span>
+  <span class="cm">/* String className to be applied to the document.html</span>
+<span class="cm">     (must be a constant string).</span>
+<span class="cm">     This attribute is `null` by default.</span>
+<span class="cm">     See the `Styles` section for more details. */</span><span class="p">}</span>
+
+  <span class="na">ariaHideApp</span><span class="o">=</span><span class="p">{</span>
+    <span class="kc">true</span>
+  <span class="cm">/* Boolean indicating if the appElement should be hidden */</span><span class="p">}</span>
+
+  <span class="na">shouldFocusAfterRender</span><span class="o">=</span><span class="p">{</span>
+    <span class="kc">true</span>
+  <span class="cm">/* Boolean indicating if the modal should be focused after render. */</span><span class="p">}</span>
+
+  <span class="na">shouldCloseOnOverlayClick</span><span class="o">=</span><span class="p">{</span>
+    <span class="kc">true</span>
+  <span class="cm">/* Boolean indicating if the overlay should close the modal */</span><span class="p">}</span>
+
+  <span class="na">shouldCloseOnEsc</span><span class="o">=</span><span class="p">{</span>
+    <span class="kc">true</span>
+  <span class="cm">/* Boolean indicating if pressing the esc key should close the modal</span>
+<span class="cm">     Note: By disabling the esc key from closing the modal</span>
+<span class="cm">     you may introduce an accessibility issue. */</span><span class="p">}</span>
+
+  <span class="na">shouldReturnFocusAfterClose</span><span class="o">=</span><span class="p">{</span>
+    <span class="kc">true</span>
+  <span class="cm">/* Boolean indicating if the modal should restore focus to the element</span>
+<span class="cm">     that had focus prior to its display. */</span><span class="p">}</span>
+
+  <span class="na">role</span><span class="o">=</span><span class="p">{</span>
+    <span class="s2">&quot;dialog&quot;</span>
+  <span class="cm">/* String indicating the role of the modal, allowing the &#39;dialog&#39; role</span>
+<span class="cm">     to be applied if desired.</span>
+<span class="cm">     This attribute is `dialog` by default. */</span><span class="p">}</span>
+
+  <span class="na">parentSelector</span><span class="o">=</span><span class="p">{</span>
+    <span class="p">()</span> <span class="p">=&gt;</span> <span class="nb">document</span><span class="p">.</span><span class="nx">body</span>
+  <span class="cm">/* Function that will be called to get the parent element</span>
+<span class="cm">     that the modal will be attached to. */</span><span class="p">}</span>
+
+  <span class="na">aria</span><span class="o">=</span><span class="p">{</span>
+    <span class="p">{</span>
+      <span class="nx">labelledby</span><span class="o">:</span> <span class="s2">&quot;heading&quot;</span><span class="p">,</span>
+      <span class="nx">describedby</span><span class="o">:</span> <span class="s2">&quot;full_description&quot;</span>
+    <span class="p">}</span>
+  <span class="cm">/* Additional aria attributes (optional). */</span><span class="p">}</span>
+
+  <span class="na">data</span><span class="o">=</span><span class="p">{</span>
+    <span class="p">{</span> <span class="nx">background</span><span class="o">:</span> <span class="s2">&quot;green&quot;</span> <span class="p">}</span>
+  <span class="cm">/* Additional data attributes (optional). */</span><span class="p">}</span>
+
+  <span class="na">overlayRef</span><span class="o">=</span><span class="p">{</span>
+    <span class="nx">setOverlayRef</span>
+  <span class="cm">/* Overlay ref callback. */</span><span class="p">}</span>
+
+  <span class="na">contentRef</span><span class="o">=</span><span class="p">{</span>
+    <span class="nx">setContentRef</span>
+  <span class="cm">/* Content ref callback. */</span><span class="p">}&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="nx">Modal</span> <span class="nx">Content</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">ReactModal</span><span class="p">&gt;</span>
+</pre></div>
+
+
+<h2 id="using-a-custom-parent-node"><a href="#custom-parent">Using a custom parent node</a></h2>
+<p>By default, the modal portal will be appended to the document's body.  You can
+choose a different parent element by providing a function to the
+<code>parentSelector</code> prop that returns the element to be used:</p>
+<div class="codehilite"><pre><span></span><span class="p">&lt;</span><span class="nt">Modal</span>
+  <span class="na">...</span>
+  <span class="na">parentSelector</span><span class="o">=</span><span class="p">{()</span> <span class="p">=&gt;</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;#root&#39;</span><span class="p">)}&gt;</span>
+  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="nx">Modal</span> <span class="nx">Content</span><span class="p">.&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">Modal</span><span class="p">&gt;</span>
+</pre></div>
+
+
+<p>p
+If you do this, please ensure that your
+<a href="accessibility/README.md#app-element">app element</a> is set correctly.  The app
+element should not be a parent of the modal, to prevent modal content from
+being hidden to screenreaders while it is open.</p>
+<h2 id="refs"><a href="#refs">Refs</a></h2>
+<p>You can use ref callbacks to get the overlay and content DOM nodes directly:</p>
+<div class="codehilite"><pre><span></span><span class="p">&lt;</span><span class="nt">Modal</span>
+  <span class="na">...</span>
+  <span class="na">overlayRef</span><span class="o">=</span><span class="p">{</span><span class="nx">node</span> <span class="p">=&gt;</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">overlayRef</span> <span class="o">=</span> <span class="nx">node</span><span class="p">)}</span>
+  <span class="na">contentRef</span><span class="o">=</span><span class="p">{</span><span class="nx">node</span> <span class="p">=&gt;</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">contentRef</span> <span class="o">=</span> <span class="nx">node</span><span class="p">)}&gt;</span>
+  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="nx">Modal</span> <span class="nx">Content</span><span class="p">.&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">Modal</span><span class="p">&gt;</span>
+</pre></div>
+
+
+<h2 id="license"><a href="#license">License</a></h2>
+<p>MIT</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+        
+          <a href="accessibility/" title="Accessibility" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Accessibility
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/application.8e03edeb.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      
+    
+  </body>
+</html>
