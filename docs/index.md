@@ -79,9 +79,9 @@ import ReactModal from 'react-modal';
 
   bodyOpenClassName={
     "ReactModal__Body--open"
-  /* String className to be applied to the document.body 
+  /* String className to be applied to the document.body
      (must be a constant string).
-     This attribute when set as `null` doesn't add any class 
+     This attribute when set as `null` doesn't add any class
      to document.body.
      See the `Styles` section for more details. */}
 
@@ -114,6 +114,12 @@ import ReactModal from 'react-modal';
     true
   /* Boolean indicating if the modal should restore focus to the element
      that had focus prior to its display. */}
+
+  /*
+    Boolean indicating if the modal should use the preventScroll flag when restoring focus
+    to the element that had focus prior to its display.
+  */
+  preventScroll={false}
 
   role={
     "dialog"
