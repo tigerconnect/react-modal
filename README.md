@@ -14,6 +14,10 @@ Accessible modal dialog component for React.JS
 * [Examples](#examples)
 * [Demos](#demos)
 
+## Changes from upstream
+
+* Apply [preventScroll PR](https://github.com/reactjs/react-modal/pull/736)
+
 ## Installation
 
 To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com):

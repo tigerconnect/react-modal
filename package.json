@@ -1,12 +1,12 @@
 {
-  "name": "react-modal",
-  "version": "3.11.1",
+  "name": "@tigerconnect/react-modal",
+  "version": "3.11.1-tc1",
   "description": "Accessible modal dialog component for React.JS",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactjs/react-modal.git"
+    "url": "https://github.com/tigerconnect/react-modal.git"
   },
   "homepage": "https://github.com/reactjs/react-modal",
   "bugs": "https://github.com/reactjs/react-modal/issues",
